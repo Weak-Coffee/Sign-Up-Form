@@ -7,21 +7,22 @@
 .container {
     display: flex;
     flex-flow: row;
+    flex: ;
     width: 100vw;
     height: 100vh;
+    color: #F2F2F2;
 }
 
 .left {
     background-color: aqua;
-    width: 40vw;
+    width: 500px;
 }
 
 .right {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    width: 60vw;
-    background-color: #F2DFBB;
+    background-color: #59394E;
     padding: 100px;
 }
 
@@ -45,7 +46,7 @@
     gap: 30px;
     background-color: #D99E89;
     padding: 20px 20px 40px;
-    box-shadow: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
 .input {
@@ -57,14 +58,28 @@
 }
 
 button {
-    padding: 10px;
+    padding: 15px 25px;
     background-color: #F2DFBB;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    font-size: 1.0rem;
 }
 
 input[type=text] {
     border: none;
+    width: 100%;
+    height: 30px;
+}
+
+label {
+    padding-bottom: 10px;
 }
 
 .form-title {
     width: 100%;
+}
+
+.log-in {
+    color: #59394E;
+    text-decoration: none;
 }
